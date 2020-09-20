@@ -2,11 +2,159 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 
-.fff{
-    color: red;
-  }
-  
-.a{
-    color: yellow;
+.header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
-  
+
+.nav-main{
+    height: 13rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-top{
+    margin-right: 15rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-list{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+}
+
+.menu-link{
+    font-size: 1.6rem;
+    padding-right: 3rem;
+    color:#B8BECD;
+}
+
+.menu-link__home{
+    color: $color-light-black;
+}
+
+a.menu-link, a.menu-link:hover, a.menu-link:active, a.menu-link:focus {
+    text-decoration: none;
+}
+
+.header-section{
+    height: auto;
+    display: flex;
+}
+
+.main-header-title{
+    font-size: 6.4rem;
+}
+
+.secondary-header-title{
+    font-size: 2.2rem;
+}
+
+.header-line{
+    width: 3.2rem;
+    height: 0.2rem;
+    background: $color-black;
+    border-radius: 0.4rem;
+}
+
+.finder-menu{
+    width: 50%;
+    padding-left: 10rem;
+}
+
+.header-img{
+    width: 50%;
+}
+
+.finder-menu-element{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.finder-description-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finder-description{
+    width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.header-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.holiday-finder-boxes{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.location-activity-box{
+    margin-top: 3rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.location-box{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.activity-box{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.explore-grade-data-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.grade-data-box{
+    margin-top: 2rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.grade-box{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.data-box{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.finder-button{
+    margin-top: 3rem;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}

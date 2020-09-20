@@ -1,0 +1,36 @@
+.section-third{
+    padding-top: 12rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-third-img-box{
+    width: 50%;
+}
+
+.section-third-description{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-boxes-third{
+    padding-left: 15rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-third-header{
+    font-size: 3.6rem;
+}
+
+.section-third-text{
+    color: $color-gray;
+    font-size: 1.7rem;
+    margin-bottom: 3rem;
+}
+

@@ -1,0 +1,52 @@
+.section-fourth{
+    padding-top: 12rem;
+    width: 100%;
+    height: 70rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.fourth-descr-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-fourth-description{
+    width: 70%;
+}
+
+.section-fourth-img-box{
+    width: 30%;
+}
+
+.section-fourth-header{
+    font-size: 3.6rem;
+    margin-bottom: 10rem;
+}
+
+.section-fourth-text{
+    font-size: 2.4rem;
+}
+
+.stars{
+    padding-right: 1rem;
+}
+
+.author{
+    font-size: 2.2rem;
+}
+
+.founder{
+    font-size: 1.8rem;
+}
+
+.section-fourth-img-box{
+    display: flex;
+    align-items: flex-end;
+}
+
+.section-fourth-img{
+    border-radius: 1.5rem;
+}

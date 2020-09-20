@@ -4,14 +4,14 @@
   "description": "Landing page",
   "main": "index.js",
   "scripts": {
-    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "scss": "node-sass --indent-type tab --indent-width 1 --output-style expanded -o dist/css src/scss",
     "serve": "browser-sync start --server --files 'dist/css/*.css, **/*.html'",
-    "watch:css": "onchange '**/*.scss' -- npm run scss",
+    "watch:css": "onchange \"**/*.scss\" -- npm run scss",
     "start": "run-p serve watch:css"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mxtokar/Thousand-sunny"
+    "url": "https://github.com/mxtokar/thousand-sunny.git"
   },
   "author": "Max Tokar",
   "license": "ISC",

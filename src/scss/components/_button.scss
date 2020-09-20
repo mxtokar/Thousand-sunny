@@ -1,3 +1,154 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+
+.button{
+    display: flex;
+    align-items: center;
+}
+
+.button-box{
+    width: 22rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-defoult{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    color: $color-orange;
+    border-radius: 0.5rem;
+    border: 1px solid $color-orange;
+}
+
+.button-white{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: $color-orange;
+    border-radius: 0.5rem;
+    color: $color-white;
+}
+
+a.button-defoult, a.button-defoult:hover, a.button-defoult:active, a.button-defoult:focus {
+    text-decoration: none;
+    color: $color-orange;
+}
+
+a.button-white, a.button-white:hover, a.button-white:active, a.button-white:focus {
+    text-decoration: none;
+    color: $color-white;
+}
+
+.finder-button-explore{
+    width: 40%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: $color-orange;
+    border-radius: 0.5rem;
+    color: $color-white;
+}
+
+a.finder-button-explore, a.finder-button-explore:hover, a.finder-button-explore:active, a.finder-button-explore:focus {
+    text-decoration: none;
+    color: $color-white;
+}
+
+
+
+select{ 
+    display: block; 
+    font-size: 16px; 
+    font-family: sans-serif; 
+    font-weight: 700; 
+    color: #444; 
+    line-height: 1.3; 
+    padding: .6em 1.4em .5em .8em;
+    width: 80%;
+    max-width: 100%; 
+    box-sizing: border-box; 
+    margin: 0; 
+    border: 1px solid #aaa;
+    box-shadow: 0 1px 0 1px rgba(0,0,0,.04); 
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: $color-white; 
+    background-image: url('/src/icons/Vector.png'), linear-gradient(to bottom, #ffffff 0%,#e5e5e5 100%); 
+    background-repeat: no-repeat, repeat;
+    background-position: right .7em top 50%, 0 0;
+    background-size: .65em auto, 100%; 
+} 
+select::-ms-expand { display: none; } 
+select:hover { border-color: #888; } 
+select:focus { border-color: #aaa; 
+    color: #222;
+    outline: none; 
+} 
+select option { font-weight:normal; } 
+*[dir="rtl"] select, :root:lang(ar) select, :root:lang(iw) select { 
+    background-position: left .7em top 50%, 0 0; 
+    padding: .6em .8em .5em 1.4em; 
+}
+
+
+.section-first-button{
+    width: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: $color-orange;
+    border-radius: 0.5rem;
+    color: $color-white;
+}
+
+a.section-first-button, a.section-first-button:hover, a.section-first-button:active, a.section-first-button:focus {
+    text-decoration: none;
+    color: $color-white;
+}
+
+.section-third-button{
+    width: 25%;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+    background: $color-orange;
+    border-radius: 0.5rem;
+    color: $color-white;
+}
+
+a.section-third-button, a.section-third-button:hover, a.section-third-button:active, a.section-third-button:focus {
+    text-decoration: none;
+    color: $color-white;
+}
+
+.view-all{
+    color: $color-orange;
+    font-size: 1.7rem;
+    padding-right: 1.5rem;
+}
+
+a.view-all, a.view-all:hover, a.view-all:active, a.view-all:focus{
+    text-decoration: none;
+    color: $color-orange;
+}
+
+.read-more{
+    color: $color-orange;
+    font-size: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+a.read-more, a.read-more:hover, a.read-more:active, a.read-more:focus{
+    text-decoration: none;
+    color: $color-orange;
+}

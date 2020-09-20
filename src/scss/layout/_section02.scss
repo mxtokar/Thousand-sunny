@@ -1,0 +1,85 @@
+.section-second{
+    padding-top: 12rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-second-header{
+    width: 71%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.featured-destinations{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 3.6rem;
+}
+
+.view-all-box{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.view-all-img{
+    width: 0.4rem;
+    height: 0.9rem;
+}
+
+.section-second-photos{
+    width: 72%;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-second-photos01{
+    padding-right: 3rem;
+    position: relative;
+}
+
+.indonesia-img{
+    border-radius: 1.5rem;
+}
+
+.photo-label{
+    position: absolute; bottom: 0; left: 0;
+    background: $color-white;
+    border-radius: 0px 6px 0px 0px;
+    font-size: 1rem;
+    padding-right: 1rem;
+}
+
+.section-second-photos02{
+    padding-right: 3rem;
+    position: relative;
+}
+
+.china-img{
+    border-radius: 1.5rem;
+}
+
+.section-second-photos03{
+    padding-right: 3rem;
+    position: relative;
+}
+
+.switzerland-img{
+    border-radius: 1.5rem;
+}
+
+.section-second-photos04{
+    position: relative;
+}
+
+.montenehro-img{
+    border-radius: 1.5rem;
+}

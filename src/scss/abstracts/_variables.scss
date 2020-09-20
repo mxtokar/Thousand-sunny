@@ -38,8 +38,12 @@ $mid-grey: rgb(153, 153, 153) !default;
 /// @type Color
 $dark-grey: rgb(68, 68, 68) !default;
 
-
-
+$color-black: #000000 !global;
+$color-light-black: #202336 !global;
+$color-orange: #FB8F1D !global;
+$color-gray: #7D7987 !global;
+$color-white:  #FFFFFF !global;
+$color-light-gray: #C4C4C4 !global;
 
 
 /// Container's maximum width
@@ -69,3 +73,8 @@ $breakpoints: (
 /// @example scss - When using a CDN
 ///   $base-url: 'http://cdn.example.com/assets/';
 $base-url: '/assets/' !default;
+
+
+
+
+
